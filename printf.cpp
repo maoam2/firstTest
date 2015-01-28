@@ -10,7 +10,7 @@ int main ()
 	
 	for (int i = 0; i<64; i++) {
 		
-		mystring = "Iterace(";
+		mystring = "Iterace2(";
 		mystring.append(to_string(i));
 		mystring.append("): ");
 		mystring.append(to_string(cislo));
@@ -19,7 +19,7 @@ int main ()
 		cout << mystring << endl;
 		cislo = cislo << 1;
 
-		cislo = cislo << 1;
+		cislo2 = cislo << 1;
 		
 	}
 
