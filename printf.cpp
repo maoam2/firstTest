@@ -18,6 +18,8 @@ int main ()
 	
 		cout << mystring << endl;
 		cislo = cislo << 1;
+		cislo = cislo << 1;
+		cislo = cislo << 1;
 		
 	}
 
